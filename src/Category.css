@@ -1,0 +1,66 @@
+.categories-container {
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+}
+
+.brands {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.brand-item {
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+.brand-item:hover{
+  transform: scale(1.08);
+
+}
+.brand-item img {
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.item-list {
+  display: flex;
+
+}
+
+.item {
+  margin-right: 5px;
+  text-align: center;
+  transition: all ease 0.3s;
+
+}
+.item:hover{
+  transform: scale(1.08);
+
+}
+
+.item img {
+  height: 80px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.item img :hover{
+  transform: scale(1.08);
+}
+
+.language-code {
+  display: block;
+  font-weight: bold;
+}
+
+.language-name {
+  font-size: 12px;
+}

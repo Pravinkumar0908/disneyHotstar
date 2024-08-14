@@ -1,0 +1,19 @@
+.status {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .online {
+    background-color: green;
+  }
+  
+  .offline {
+    background-color: red;
+  }
+  

@@ -1,0 +1,182 @@
+.preview {
+  position: relative;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.preview__background img {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
+  border-radius: 7px;
+  object-fit: cover; /* Ensure background image covers the area */
+}
+
+.preview__background::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, rgb(37, 37, 37), #111),
+              linear-gradient(to right, rgb(0, 0, 0));
+}
+
+.preview__content {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  transform: translateY(-50%);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 490px;
+}
+
+.preview__content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.for_watching {
+  width: 60px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #333333a7;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.preview__content p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.subscribe_watch {
+  background-color: #e50914;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-right: -20px;
+}
+
+.subscribe_watch_add {
+  background-color: #333;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+
+.banner__nav {
+  background: #111;
+  padding: 10px 20px;
+  position: relative;
+  z-index: 10; /* Ensure it's on top */
+}
+
+.banner__nav nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Reset default margin */
+}
+
+.banner__nav nav ul li {
+  margin-right: 20px;
+}
+
+.banner__nav nav ul li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer; /* Ensure pointer cursor */
+  transition: color 0.3s ease; /* Add a transition for hover effect */
+}
+
+.banner__nav nav ul li a:hover {
+  color: #ff0000; /* Change color on hover */
+}
+
+.banner__nav nav ul li a.active {
+  color: #ff0000; /* Change color for active link */
+  font-weight: bold; /* Example styling for active link */
+}
+
+.banner__section {
+  background: #222;
+  padding: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Episode info styling */
+.episode__info {
+  margin-left: 250px;
+  margin-top: -140px;
+}
+
+/* Episodes list styling */
+.episodes__list {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.episode__poster {
+  margin: 10px;
+  border-radius: 8px;
+  transition: all ease 0.2s;
+}
+
+/* Hide scrollbar */
+.episodes__list::-webkit-scrollbar {
+  display: none;
+}
+
+/* General item styling */
+.episode, .more-like-this__item, .trailer, .extra {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Image styling */
+.episode img, .more-like-this__item img, .trailer img, .extra img {
+  width: 200px;
+  height: 130px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.video-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  background: black;
+}
+.video-container iframe {
+  width: 100%;
+  height: 100vh;
+}
+.close-video {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1001;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
