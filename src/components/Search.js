@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const TMDB_API_KEY = '58783adfbeee0eb3d75a34556e460e51'; // Replace with your TMDB API key
+const TMDB_API_KEY = ''; // Replace with your TMDB API key
 
 const requests = {
   popularShows: `https://api.themoviedb.org/3/trending/tv/week?api_key=${TMDB_API_KEY}`,
