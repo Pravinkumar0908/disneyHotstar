@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const OMDB_API_KEY = 'ffe81133'; // Your OMDB API key
+const OMDB_API_KEY = ''; // Your OMDB API key
 
 const requests = {
   popularShows: `http://www.omdbapi.com/?apikey=${OMDB_API_KEY}&s=popular&plot=short`,
