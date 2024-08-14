@@ -28,7 +28,7 @@ import Movie from './components/Movie';
 import Sports from './components/Sports';
 import Subscribe from './components/Subscribe';
 
-const TMDB_API_KEY = '58783adfbeee0eb3d75a34556e460e51'; // Replace with your TMDB API key
+const TMDB_API_KEY = ''; // Replace with your TMDB API key
 
 const requests = {
     fetchComedyMovies: `https://api.themoviedb.org/3/discover/movie?api_key=${TMDB_API_KEY}&with_genres=35&language=en-US`,
