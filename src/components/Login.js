@@ -16,9 +16,9 @@ import { getFirestore, doc, setDoc } from "firebase/firestore";
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyC6MFdDJ3dtQu1ciyafWpqdoRa8GCp4CEo",
+  apiKey: "firebase api key paste ",
   authDomain: "your-project-id.firebaseapp.com",  // Update with your authDomain
-  projectId: "project-486746459294-project-id",
+  projectId: "project--project-id",
   storageBucket: "YOUR_STORAGE_BUCKET",
   messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
   appId: "YOUR_APP_ID"
