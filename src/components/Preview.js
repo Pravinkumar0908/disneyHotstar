@@ -3,8 +3,8 @@ import { useParams } from 'react-router-dom';
 import YouTube from 'react-youtube';
 import { BsFillPlayFill, BsFillPauseFill, BsFillVolumeUpFill, BsFillVolumeMuteFill, BsFillSkipStartFill, BsFillSkipEndFill, BsX } from 'react-icons/bs';
 
-const TMDB_API_KEY = '58783adfbeee0eb3d75a34556e460e51'; // Replace with your actual TMDB API key
-const YOUTUBE_API_KEY = 'AIzaSyDUKcLwSmQ3bHMN8jZU4-5bm2DpeVOh0E8'; // Replace with your actual YouTube API key
+const TMDB_API_KEY = ''; // Replace with your actual TMDB API key
+const YOUTUBE_API_KEY = ''; // Replace with your actual YouTube API key
 
 function Preview() {
     const { id } = useParams();
